@@ -1,0 +1,414 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#F9F4FB;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.container_one {
+  display: flex;
+  gap: 2.8rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 135.0rem;
+  max-height: 80.6rem;
+}
+
+.presentation {
+  margin-left: 10.9rem;
+}
+
+.presentation h1 {
+  margin-bottom: .8rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 5.0rem;
+  line-height: 7.3rem;
+  text-align: center;
+  color: #B52184;
+}
+
+.astronauta {
+  height: 65.9rem;
+  width: 73.3rem;
+}
+
+.presentation p {
+  margin-bottom: 17.9rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 4.0rem;
+  text-align: start;
+  color: #312D64;
+}
+
+.presentation button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow_button {
+  width: 5.8rem;
+  height: 10.5rem;
+}
+
+.container_two {
+  height: 57.6rem;
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.planet1,
+.planet2,
+.planet3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.2rem;
+  gap: 2.0rem;
+  margin: 0 auto;
+  width: 36.6rem;
+  height: 44.8rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+
+.planet1 h1,
+.planet2 h1,
+.planet3 h1 {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 4.4rem;
+  color: #B52184;
+  margin-bottom: 2.4rem;
+  width: 27.9rem;
+  height: 2.5rem;
+}
+
+.planet1 p,
+.planet2 p,
+.planet3 p {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #312D64;
+  width: 32.1rem;
+  height: 15.8rem;
+
+}
+
+.container_three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_three h1 {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.2rem;
+  line-height: 5.3rem;
+  margin-bottom: 2.5rem;
+  color: #B52184;
+}
+
+.form {
+  margin-left: 10rem;
+}
+
+input {
+  margin-bottom: 1.2rem;
+}
+
+.form input {
+  border: 1.5px solid #312D64;
+  border-radius: 1.6rem;
+  padding: 1.2rem 1.9rem 1.2rem 5rem;
+  gap: 1.2rem;
+  width: 45.2rem;
+  height: 4rem;
+}
+
+input::placeholder {
+  padding-left: 3rem;
+  width: 52.6rem;
+  height: 1.6rem;
+  padding: 1.2rem 1.0rem 1.2rem 0rem;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #312D64;
+}
+
+textarea::placeholder {
+  width: 56rem;
+  height: 9.8rem;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #312D64;
+}
+
+.form textarea {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1.5rem;
+  gap: 1.0rem;
+  width: 45.2rem;
+  height: 12.6rem;
+  border: 1.5px solid #312D64;
+  border-radius: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.form button {
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  border-radius: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+  gap: 1.0rem;
+  border: none;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.name_input,
+.email_input { 
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 0.9rem;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+  gap: 1.0rem;
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  }
+
+.end p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  @media (max-width: 550px) {
+
+    .container_one {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      width: 43.0rem;
+      margin: 0 auto;
+ 
+    }
+
+    .astronauta {
+      height: 37rem;
+      width: 36.4rem;
+    }
+
+    .presentation h1 {
+      margin-bottom: 0.0rem;
+      font-size: 4rem;
+    }
+
+    .presentation p {
+      margin-bottom: 5rem;
+    
+      font-family: 'Mulish', sans-serif;
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 4.0rem;
+
+      text-align: center;
+    
+      color: #312D64;
+    }
+    
+    .presentation button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    .arrow_button {
+      width: 5.8rem;
+      height: 10.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .presentation {
+      margin-left: 0
+    }
+
+    .container_two {
+      height: 124.62rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+
+      background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+    
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+    
+    .planet1,
+    .planet2,
+    .planet3 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1.2rem;
+      gap: 1.0rem;
+    
+      margin: 0 auto;
+    
+      width: 36.6rem;
+      height: 44.8rem;
+    
+      background: #FFFFFF;
+      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+      border-radius: 24px;
+    }
+
+    .stars {
+      display: none;
+    }
+
+    .container_three {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-inline: 5.9rem;
+    }
+    
+    .container_three h1 {
+      font-family: 'Mulish', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.2rem;
+      line-height: 5.3rem;
+    
+      margin-bottom: 2.5rem;
+      margin-top: 2rem;
+    
+      color: #B52184;
+    }
+
+    .form {
+      margin-left: 0rem;
+    }
+    
+    input {
+      margin-bottom: 2.2rem;
+    }
+
+    .form input {
+      gap: 1.2rem;
+      width: 40.2rem;
+    }
+
+    .form textarea {
+      width: 40.2rem;
+    }
+
+    .form button {
+      background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+      border-radius: 1.6rem;
+    
+      justify-content: center;
+      align-items: center;
+      padding: 1.6rem;
+      gap: 1.0rem;
+      margin-top: 1.2rem;
+    
+      border: none;
+      font-family: 'Mulish', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+    
+      align-items: center;
+      text-align: center;
+      text-transform: capitalize;
+    
+      color: #FFFFFF;
+    
+      cursor: pointer;
+    }
+
+    .end {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+      }
+
+    .end p {
+      font-family: 'Mulish', sans-serif;
+      font-size: 1.5rem;
+      margin: 0 auto;
+      font-weight: 600;
+      line-height: 2.4rem;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #FFFFFF;
+      }
+
+    
+  }
+
+
+
+
+
+
